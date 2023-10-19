@@ -57,7 +57,6 @@ int main(void)
     // Main game loop
     while (!WindowShouldClose())    // Detect window close button or ESC key
     { 
-	DisableEventWaiting();
 	if (IsKeyDown(KEY_SPACE) && endScreen) exit(0);
         // Update
         //---------------------------------------------------------------------------------- 
